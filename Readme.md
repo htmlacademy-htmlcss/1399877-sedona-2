@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Игорь Ткаченко](https://up.htmlacademy.ru/htmlcss-individual/2/user/1399877).
-* Наставник: `Неизвестно`.
+- Студент: [Игорь Ткаченко](https://up.htmlacademy.ru/htmlcss-individual/2/user/1399877).
+- Наставник: [Станислав Михайлов](https://htmlacademy.ru/profile/id139638).
 
 ---
 
