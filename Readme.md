@@ -2,6 +2,7 @@
 
 - Студент: [Игорь Ткаченко](https://up.htmlacademy.ru/htmlcss-individual/2/user/1399877).
 - Наставник: [Станислав Михайлов](https://htmlacademy.ru/profile/id139638).
+- Сайт: [Sedona](https://shere1-1khan.github.io/1399877-sedona-2/).
 
 ---
 
