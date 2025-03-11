@@ -24,7 +24,7 @@
       </nav>
       <ul class="inner-navigation__list">
         <li class="inner-navigation__item">
-          <a class="nner-navigation__link search" href="#">
+          <a class="inner-navigation__link search" href="#">
             <span class="visually-hidden">Поиск</span>
           </a>
         </li>
@@ -122,8 +122,11 @@
         <p class="page-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
 
         <form class="mailing-form" action="https://echo.htmlacademy.ru/" method="post">
-          <input class="mailing-input" type="email" placeholder="Ваш e-mail" name="email">
-          <input class="mailing-button button" type="submit" value="Подписаться">
+          <label for="e-maill" class="visually-hidden">Ваш e-maill</label>
+          <input class="mailing-input" type="email" placeholder="Ваш e-mail" name="email" id="e-maill">
+          <button class="button mailing-button" type="submit">
+            <span class="visually-hidden">Подписатьс</span>
+          </button>
         </form>
       </section>
     </main>

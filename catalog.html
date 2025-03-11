@@ -18,13 +18,13 @@
             <a class="navigation-link" href="#">О седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="catalog.html">Гостиницы</a>
+            <a class="navigation-link">Гостиницы</a>
           </li>
         </ul>
       </nav>
       <ul class="inner-navigation__list">
         <li class="inner-navigation__item">
-          <a class="nner-navigation__link search" href="#">
+          <a class="inner-navigation__link search" href="#">
             <span class="visually-hidden">Поиск</span>
           </a>
         </li>
@@ -43,14 +43,14 @@
       <section class="filters">
         <h1 class="catalog-title">Каталог Седоны</h1>
 
-        <ul class="bredcrums-list">
-          <li class="bredcrums-item">
-            <a class="bredcrams-link" href="index.html">
+        <ul class="breadcrumbs-list">
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="index.html">
               <span class="visually-hidden">Главная</span>
             </a>
           </li>
-          <li class="bredcrums-item">
-            <a class="bredcrams-link" href="#">Гостиницы</a>
+          <li class="breadcrumbs-item">
+            <a class="breadcrumbs-link" href="#">Гостиницы</a>
           </li>
         </ul>
         <form class="filters-form" action="https://echo.htmlacademy.ru/" method="post">
@@ -84,8 +84,8 @@
                 <label class="type-house__label-radio" for="motel">Мотель</label>
               </li>
               <li class="type-house__item">
-                <input class="type-house__radio" type="radio" name="apartaments" id="apartaments">
-                <label class="type-house__label-radio" for="apartaments">Апартаменты</label>
+                <input class="type-house__radio" type="radio" name="apartments" id="apartments">
+                <label class="type-house__label-radio" for="apartments">Апартаменты</label>
               </li>
             </ul>
           </fieldset>
@@ -109,42 +109,40 @@
           </fieldset>
 
           <fieldset class="filters-buttons">
-            <input class="button submit" type="submit" value="Применить">
-            <input class="button reset" type="reset" value="Сбросить">
+            <button class="button">Применить</button>
+            <button class="button button-reset" type="reset">Сбросить</button>
           </fieldset>
         </form>
       </section>
 
-      <section class="catalog">
-        <form class="catalog-sorting" action="https://echo.htmlacademy.ru/">
+      <section class="catalog" id="">
           <label class="sorting-label" for="sorting">Найдено гостиниц: 38</label>
 
-          <select class="select-sort" name="sorting" id="sorting">
+          <select class="select-sort" name="sorting" id="sorting" aria-label="Сортировка">
             <option value="Сначала дешевые">Сначала дешевые</option>
             <option value="Сначала дорогие">Сначала дорогие</option>
           </select>
 
           <ul class="sorting-view__list">
             <li class="sorting-view__item">
-              <a class="catalok-sorting__link" href="catalog.html?view=tile">
+              <a class="catalog-sorting__link" href="catalog.html?view=tile">
                 <span class="visually-hidden">tile</span>
                 <img src="#" alt="tile">
               </a>
             </li>
             <li class="sorting-view__item">
-              <a class="catalok-sorting__link" href="catalog.html?view=card">
+              <a class="catalog-sorting__link" href="catalog.html?view=card">
                 <span class="visually-hidden">card</span>
                 <img src="#" alt="card">
               </a>
             </li>
             <li class="sorting-view__item">
-              <a class="catalok-sorting__link" href="catalog.html?view=list">
+              <a class="catalog-sorting__link" href="catalog.html?view=list">
                 <span class="visually-hidden">list</span>
                 <img src="#" alt="list">
               </a>
             </li>
           </ul>
-        </form>
 
         <h2 class="visually-hidden">Каталог гостиниц Седоны</h2>
 
@@ -206,27 +204,28 @@
             </p>
           </li>
         </ul>
-
-        <ul class="pagination-list">
-          <li class="pagintion-item">
-            <a class="pagination-list" href="#">1</a>
-          </li>
-          <li class="pagintion-item">
-            <a class="pagination-list" href="#">2</a>
-          </li>
-          <li class="pagintion-item">
-            <a class="pagination-list" href="#">3</a>
-          </li>
-          <li class="pagintion-item">
-            <a class="pagination-list" href="#">4</a>
-          </li>
-          <li class="pagintion-item">
-            <a class="pagination-list" href="#">...</a>
-          </li>
-          <li class="pagintion-item">
-            <a class="pagination-list" href="10"></a>
-          </li>
-        </ul>
+        <nav class="pagination">
+          <ol class="pagination-list">
+            <li class="pagination-item">
+              <a class="pagination-list" href="#">1</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-list" href="#">2</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-list" href="#">3</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-list" href="#">4</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-list" href="#">...</a>
+            </li>
+            <li class="pagination-item">
+              <a class="pagination-list" href="10"></a>
+            </li>
+          </ol>
+        </nav>
       </section>
 
       <section class="catalog-mailing">
@@ -236,8 +235,11 @@
         <p class="page-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
 
         <form class="catalog-mailing__form" action="https://echo.htmlacademy.ru/." method="post">
-          <input class="mailing-input" type="email" placeholder="Ваш e-mail" name="email">
-          <input class="mailing-button button" type="submit" value="Подписаться">
+          <label for="e-maill" class="visually-hidden">Ваш e-maill</label>
+          <input class="mailing-input" type="email" placeholder="Ваш e-mail" name="email" id="e-maill">
+          <button class="button mailing-button" type="submit">
+            <span class="visually-hidden">Подписатьс</span>
+          </button>
         </form>
       </section>
     </main>
