@@ -54,8 +54,8 @@
           </li>
         </ul>
         <form class="filters-form" action="https://echo.htmlacademy.ru/" method="post">
-          <fieldset class="infrastructure" id="infrastructure">
-            <label class="infrastructure-label" for="infrastructure">Инфраструктура:</label>
+          <fieldset class="infrastructure">
+            <legend class="infrastructure-label">Инфраструктура:</legend>
             <ul class="infrastructure-list">
               <li class="infrastructure-item">
                 <input class="infrastructure-check" type="checkbox" id="pool" name="pool" checked>
@@ -72,8 +72,8 @@
             </ul>
           </fieldset>
 
-          <fieldset class="type-house" id="type-house">
-            <label class="type-house__label" for="type-house">Тип жилья:</label>
+          <fieldset class="type-house">
+            <legend class="type-house__label">Тип жилья:</legend>
             <ul class="type-house__list">
               <li class="type-house__item">
                 <input class="type-house__radio" type="radio" name="hotel" id="hotel" checked>
@@ -90,11 +90,11 @@
             </ul>
           </fieldset>
 
-          <fieldset class="price" id="price">
-            <label class="price-label" for="price">Стоимость, ₽:</label>
+          <fieldset class="price">
+            <legend class="price-label">Стоимость, ₽:</legend>
 
             <input class="price-min" type="text" name="price-min" value="0" id="price-min">
-            <label for="" class="price-min__label">от</label>
+            <label class="price-min__label" for="price-min">от</label>
 
             <input class="price-max" type="text" name="price-max" id="price-max" value="9000">
             <label class="price-max__label" for="price-max">до</label>
@@ -116,10 +116,10 @@
       </section>
 
       <section class="catalog">
-        <form class="catalog-sorting" action="https://echo.htmlacademy.ru/" id="sorting">
+        <form class="catalog-sorting" action="https://echo.htmlacademy.ru/">
           <label class="sorting-label" for="sorting">Найдено гостиниц: 38</label>
 
-          <select class="elect-sort" name="sort">
+          <select class="select-sort" name="sorting" id="sorting">
             <option value="Сначала дешевые">Сначала дешевые</option>
             <option value="Сначала дорогие">Сначала дорогие</option>
           </select>
@@ -153,7 +153,7 @@
             <img src="#" alt="Amara Resort & Spa">
             <h3 class="card-title">Amara Resort & Spa</h3>
             <p class="card-descriprion">
-              <b class="type-house">Гостиница</b>
+              <span class="type-house">Гостиница</span>
               <b class="card-price">От 4000 ₽</b>
             </p>
             <a class="button card-button" href="#">подробнее</a>
@@ -167,7 +167,7 @@
             <img src="#" alt="Villas at Poco Diablo">
             <h3 class="card-title">Villas at Poco Diablo</h3>
             <p class="card-descriprion">
-              <b class="type-house">Гостиница</b>
+              <span class="type-house">Гостиница</span>
               <b class="card-price">От 5000 ₽</b>
             </p>
             <a class="button card-button" href="#">подробнее</a>
@@ -181,7 +181,7 @@
             <img src="#" alt="Desert Quail Inn">
             <h3 class="card-title">Desert Quail Inn</h3>
             <p class="card-descriprion">
-              <b class="type-house">Гостиница</b>
+              <span class="type-house">Гостиница</span>
               <b class="card-price">От 2500 ₽</b>
             </p>
             <a class="button card-button" href="#">подробнее</a>
@@ -195,7 +195,7 @@
             <img src="#" alt="GreenTree Inn">
             <h3 class="card-title">GreenTree Inn</h3>
             <p class="card-descriprion">
-              <b class="type-house">Гостиница</b>
+              <span class="type-house">Гостиница</span>
               <b class="card-price">От 1500 ₽</b>
             </p>
             <a class="button card-button" href="#">подробнее</a>
@@ -235,7 +235,7 @@
         <p class="page-title">Подпишитесь на рассылку</p>
         <p class="page-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
 
-        <form class="catalog-mailing__form" action="https://echo.htmlacademy.ru/.">
+        <form class="catalog-mailing__form" action="https://echo.htmlacademy.ru/." method="post">
           <input class="mailing-input" type="email" placeholder="Ваш e-mail" name="email">
           <input class="mailing-button button" type="submit" value="Подписаться">
         </form>
