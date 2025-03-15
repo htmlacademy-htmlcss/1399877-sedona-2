@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans",sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  font-size: 22px;
+  background-color: #ffffff;
+  color: #000000;
+}
+.header-page {}
+
+.navigation {}
+
+.header-logo {}
+
+.navigation-list {}
+.navigation-item {}
+.navigation-link {}
+
+.inner-navigation-list {}
+.inner-navigation-item {}
+.inner-navigation-link {}
+.search {}
+.favorite {}
+.button {}
+
+.main-page {}
+
+.welcome-image {}
+
+.page-title {}
+.page-description {}
+
+.advantages {}
+.advantages-list {}
+.advantages-item {}
+.advantages-title {}
+.advantages-description {}
+.advantages-img {}
+
+.advantages-inner-list {}
+.advantages-inner-item {}
+
+.service {}
+.service-list {}
+.service-item {}
+
+.search-hotel {}
+.search-hotel-link {}
+
+.mailing {}
+.mailing-form {}
+.mailing-input {}
+.mailing-button {}
+
+.footer-page {}
+
+.social-list {}
+.social-item {}
+.social-link {}
+
+.footer-address {}
+.developer-logo {}
+
+
+.catalog-main {}
+.catalog-title {}
+
+.filters {}
+
+.breadcrumbs-list {}
+.breadcrumbs-item {}
+.breadcrumbs-link {}
+
+.filters-form {}
+
+.infrastructure-group {}
+.infrastructure-label {}
+.infrastructure-list {}
+.infrastructure-item {}
+.infrastructure-checkbox {}
+.infrastructure-label-checkbox {}
+
+.type-house-group {}
+.type-house-label {}
+.type-house-list {}
+.type-house-item {}
+.type-house-radio {}
+.type-house-label-radio {}
+
+.price-group {}
+.price-label {}
+.price-min {}
+.price-min-label {}
+.price-max {}
+.price-max-label {}
+.price-range-toggle {}
+.toggle-min {}
+.toggle-max {}
+
+.filters-buttons {}
+.button-reset {}
+
+.catalog-sorting {}
+.catalog-sorting-label {}
+.catalog-sorting-select{}
+.catalog-sorting-item {}
+
+.catalog-sorting-view-list {}
+.catalog-sorting-view-item {}
+.catalog-sorting-link {}
+
+
+.catalog {}
+.catalog-list {}
+.catalog-item {}
+.catalog-title {}
+.catalog-image {}
+.catalog-descriprion {}
+.catalog-type-house {}
+.catalog-price {}
+.catalog-button-card-details {}
+.catalog-button-favorite {}
+.catalog-rating-block {}
+.catalog-stars-list {}
+.catalog-stars-item {}
+.catalog-rating-card {}
+
+.nav-pagination {}
+.nav-pagination-list {}
+.nav-pagination-item {}
+.nav-pagination-link {}
+
+.catalog-mailing {}
