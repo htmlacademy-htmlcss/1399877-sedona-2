@@ -24,39 +24,120 @@ body {
   background-color: #ffffff;
   color: #000000;
 }
-.header-page {}
+
+.visually-hidden {
+  visibility: hidden;
+}
+.button {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  background-color: #756157;
+  color: #ffffff;
+  padding: 8px 34px;
+  border-radius: 4px;
+}
+
+.header-page {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+}
 
 .navigation {}
 
-.header-logo {}
+.header-logo {
+  margin-left: 70px;
+}
 
 .navigation-list {}
-.navigation-item {}
-.navigation-link {}
+.navigation-item {
+  list-style: none;
+}
+.navigation-link {
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
 
 .inner-navigation-list {}
-.inner-navigation-item {}
-.inner-navigation-link {}
+.inner-navigation-item {
+  list-style: none;
+}
+.inner-navigation-link {
+  text-decoration: none;
+  font-size: 16px;
+
+}
 .search {}
 .favorite {}
 .button {}
 
+
 .main-page {}
 
+.welcome-block {
+  background-image: url("../images/mask.svg"), url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
 .welcome-image {}
 
-.page-title {}
-.page-description {}
+.page-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.page-description {
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+
+}
 
 .advantages {}
 .advantages-list {}
-.advantages-item {}
-.advantages-title {}
-.advantages-description {}
+.advantages-list {}
+.advantages-item {
+  list-style: none;
+  background-color: #82B3D3;
+}
+.advantages-item:nth-child(2) {
+  background-color: #ffffff;
+}
+.advantages-title {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+.advantages-description {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 21px;
+}
 .advantages-img {}
 
-.advantages-inner-list {}
-.advantages-inner-item {}
+.advantages-inner-list {
+}
+.advantages-inner-item {
+  list-style: none;
+  background-color: #83B3D31F;
+}
+.advantages-inner-item:nth-child(2) {
+  background-color: #83B3D333;
+}
+.advantages-inner-item .advantages-title {
+  color: #000000;
+}
+.advantages-inner-item .advantages-description  {
+  color: #333333;
+}
+
 
 .service {}
 .service-list {}
