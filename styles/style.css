@@ -27,9 +27,7 @@ body {
 }
 
 .visually-hidden {
-
   display: none;
-
 }
 .button {
   font-size: 16px;
@@ -94,7 +92,7 @@ body {
 .welcome-block {
   background-image: url("../images/mask.svg"), url("../images/index-background.jpg");
   background-color: #82B3D3;
-  background-size: 100% auto;
+  background-size: 100% auto, cover;
   background-position: bottom center;
   background-repeat: no-repeat;
 }
@@ -191,7 +189,7 @@ body {
 
 .mailing {
   background-image: url("../images/subscribe.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -252,7 +250,7 @@ body {
 
 .filters {
   background-image: url("../images/filters.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
 }
@@ -340,6 +338,7 @@ body {
   color: #000000;
 }
 .catalog-image {}
+
 .catalog-descriprion {
   font-size: 18px;
   line-height: 21px;
