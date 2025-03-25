@@ -695,6 +695,7 @@ body {
 .nav-pagination {
   width: 1060px;
   margin: 0 auto;
+  margin-bottom: 60px;
 }
 .nav-pagination-list {
   display: flex;
