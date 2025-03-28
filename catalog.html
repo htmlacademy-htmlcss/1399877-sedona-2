@@ -59,64 +59,68 @@
           </div>
 
           <form class="filters-form" action="https://echo.htmlacademy.ru/" method="post">
-            <fieldset class="infrastructure fieldset-group">
-              <legend class="filters-label-group">Инфраструктура:</legend>
-              <ul class="infrastructure-list">
-                <li class="infrastructure-item">
-                  <input class="infrastructure-checkbox" type="checkbox" id="pool" name="pool" checked>
-                  <label class="filter-label" for="pool">Бассейн</label>
-                </li>
-                <li class="infrastructure-item">
-                  <input class="infrastructure-checkbox" type="checkbox" id="parking" name="parking" checked>
-                  <label class="filter-label" for="parking">Парковка</label>
-                </li>
-                <li class="infrastructure-item">
-                  <input class="infrastructure-checkbox" type="checkbox" id="wi-fi" name="wi-fi">
-                  <label class="filter-label" for="wi-fi">Wi-Fi</label>
-                </li>
-              </ul>
-            </fieldset>
+            <div class="filters-point-block">
+              <fieldset class="infrastructure fieldset-group">
+                <legend class="filters-label-group">Инфраструктура:</legend>
+                <ul class="infrastructure-list">
+                  <li class="infrastructure-item">
+                    <input class="infrastructure-checkbox" type="checkbox" id="pool" name="pool" checked>
+                    <label class="filter-label" for="pool">Бассейн</label>
+                  </li>
+                  <li class="infrastructure-item">
+                    <input class="infrastructure-checkbox" type="checkbox" id="parking" name="parking" checked>
+                    <label class="filter-label" for="parking">Парковка</label>
+                  </li>
+                  <li class="infrastructure-item">
+                    <input class="infrastructure-checkbox" type="checkbox" id="wi-fi" name="wi-fi">
+                    <label class="filter-label" for="wi-fi">Wi-Fi</label>
+                  </li>
+                </ul>
+              </fieldset>
 
-            <fieldset class="type-house fieldset-group">
-              <legend class="filters-label-group">Тип жилья:</legend>
-              <ul class="type-house-list">
-                <li class="type-house-item">
-                  <input class="type-house-radio" type="radio" name="hotel" id="hotel" checked>
-                  <label class="filter-label" for="hotel">Гостиница</label>
-                </li>
-                <li class="type-house-item">
-                  <input class="type-house-radio" type="radio" name="motel" id="motel">
-                  <label class="filter-label" for="motel">Мотель</label>
-                </li>
-                <li class="type-house-item">
-                  <input class="type-house-radio" type="radio" name="apartments" id="apartments">
-                  <label class="filter-label" for="apartments">Апартаменты</label>
-                </li>
-              </ul>
-            </fieldset>
+              <fieldset class="type-house fieldset-group">
+                <legend class="filters-label-group">Тип жилья:</legend>
+                <ul class="type-house-list">
+                  <li class="type-house-item">
+                    <input class="type-house-radio" type="radio" name="hotel" id="hotel" checked>
+                    <label class="filter-label" for="hotel">Гостиница</label>
+                  </li>
+                  <li class="type-house-item">
+                    <input class="type-house-radio" type="radio" name="motel" id="motel">
+                    <label class="filter-label" for="motel">Мотель</label>
+                  </li>
+                  <li class="type-house-item">
+                    <input class="type-house-radio" type="radio" name="apartments" id="apartments">
+                    <label class="filter-label" for="apartments">Апартаменты</label>
+                  </li>
+                </ul>
+              </fieldset>
+            </div>
 
-            <fieldset class="price fieldset-group">
-              <legend class="filters-label-group">Стоимость, ₽:</legend>
+            <div class="filters-input-block">
+              <fieldset class="price fieldset-group">
+                <legend class="filters-label-group">Стоимость, ₽:</legend>
 
-              <input class="price-min" type="text" name="price-min" value="0" id="price-min">
-              <label class="price-min-label" for="price-min">от</label>
+                <input class="price-min" type="text" name="price-min" value="0" id="price-min">
+                <label class="price-min-label" for="price-min">от</label>
 
-              <input class="price-max" type="text" name="price-max" id="price-max" value="9000">
-              <label class="price-max-label" for="price-max">до</label>
+                <input class="price-max" type="text" name="price-max" id="price-max" value="9000">
+                <label class="price-max-label" for="price-max">до</label>
 
-              <button class="price-range-toggle toggle-min" type="button">
-                <span class="visually-hidden">изменить минимальную цену</span>
-              </button>
+                <button class="price-range-toggle toggle-min" type="button">
+                  <span class="visually-hidden">изменить минимальную цену</span>
+                </button>
 
-              <button class="price-range-toggle toggle-max" type="button">
-                <span class="visually-hidden">изменить максимальную цену</span>
-              </button>
-            </fieldset>
+                <button class="price-range-toggle toggle-max" type="button">
+                  <span class="visually-hidden">изменить максимальную цену</span>
+                </button>
+              </fieldset>
 
-            <fieldset class="filters-buttons fieldset-group">
-              <button class="button button__blue" type="submit">Применить</button>
-              <button class="button button-reset" type="reset">Сбросить</button>
-            </fieldset>
+              <fieldset class="filters-buttons fieldset-group">
+                <button class="button button__blue" type="submit">Применить</button>
+                <button class="button button-reset" type="reset">Сбросить</button>
+              </fieldset>
+            </div>
           </form>
         </section>
 
