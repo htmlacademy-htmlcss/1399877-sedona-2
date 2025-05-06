@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "stylelint": "^16.19.1",
+    "stylelint-config-htmlacademy": "^4.2.3"
+  }
+}

@@ -49,6 +49,7 @@ body {
   border-radius: 4px;
   text-decoration: none;
   text-align: center;
+  -webkit-appearance: none;
   appearance: none;
   padding: 8px 34px;
   cursor: pointer;
@@ -674,7 +675,7 @@ body {
 
 .modal {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -685,8 +686,9 @@ body {
 
 .modal__content {
   position: relative;
+  top: 20%;
   width: 578px;
-  margin: auto;
+  margin: 0 auto;
   padding: 64px 70px;
   background-color: #ffffff;
   border-radius: 30px;
@@ -972,7 +974,7 @@ body {
 }
 
 .catalog-filters {
-  padding: 30px 70px 60px;
+  padding: 30px 70px 70px;
   margin-bottom: 50px;
   background-image: url("../images/filters.jpg");
   background-color: #82b3d3;
@@ -1276,11 +1278,12 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-top: 40px;
+  padding-top: 54px;
 }
 
 .catalog-filters__fieldset--buttons .button--blue {
   padding: 8px 50px;
+  margin-bottom: 34px;
 }
 
 .catalog-filters__fieldset--buttons .button--reset {
@@ -1320,6 +1323,7 @@ body {
   box-sizing: border-box;
   font-family: inherit;
   color: #333333;
+  -webkit-appearance: none;
   appearance: none;
   font-size: 18px;
   line-height: 21px;
