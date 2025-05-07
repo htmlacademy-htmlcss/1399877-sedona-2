@@ -43,6 +43,7 @@ body {
   font-family: inherit;
   font-size: 16px;
   line-height: 20px;
+  font-weight: 700;
   text-transform: uppercase;
   color: #ffffff;
   border: 0;
@@ -228,6 +229,16 @@ body {
   text-decoration: none;
 }
 
+.main-nav__item:hover .main-nav__link {
+  color: #756257;
+  transition: color 0.3s ease;
+}
+
+.main-nav__link:active {
+  color: #9d9d9d;
+  transition: color 0.3s ease;
+}
+
 .main-nav__user-list {
   max-width: 268px;
   display: flex;
@@ -288,7 +299,7 @@ body {
 
 .hero {
   background-image: url("../images/mask.svg"), url("../images/index-background.jpg");
-  background-color: #82b3d3;
+  background-color: #103954;
   background-size: 100% auto, cover;
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -672,7 +683,7 @@ body {
 }
 
 .modal {
-  display: none;
+  /* display: none; */
   position: fixed;
   top: 0;
   left: 0;
@@ -764,6 +775,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 11px;
 }
 
 .modal__label {
@@ -805,9 +817,8 @@ body {
   line-height: 21px;
   padding-left: 20px;
   color: #333333;
+  margin-top: 0;
   margin-left: 137px;
-  margin-right: auto;
-  margin-bottom: 22px;
   box-sizing: border-box;
 }
 
@@ -975,7 +986,7 @@ body {
   padding: 30px 70px 70px;
   margin-bottom: 50px;
   background-image: url("../images/filters.jpg");
-  background-color: #82b3d3;
+  background-color: #103954;
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
