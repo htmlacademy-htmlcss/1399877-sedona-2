@@ -555,7 +555,7 @@ body {
   margin: 0 auto;
   padding-bottom: 106px;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: flex-start;
 }
 
