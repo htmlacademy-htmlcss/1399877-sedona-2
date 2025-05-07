@@ -656,8 +656,6 @@ body {
 }
 
 .footer__copyright-icon {
-  position: absolute;
-  inset: 0;
   margin: auto;
   fill: #000000;
 }
@@ -1146,7 +1144,7 @@ body {
 
 .catalog-filters__control {
   position: absolute;
-  top: 0;
+  top: 3px;
   display: block;
   width: 20px;
   height: 20px;
@@ -1330,6 +1328,7 @@ body {
   background-image: url("../images/icons/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
+  background-color: transparent;
   cursor: pointer;
 }
 
