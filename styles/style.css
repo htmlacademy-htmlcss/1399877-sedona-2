@@ -683,7 +683,7 @@ body {
 }
 
 .modal {
-  /* display: none; */
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
@@ -1376,6 +1376,20 @@ body {
   box-sizing: border-box;
   border: 2px solid #e5e5e5;
   border-radius: 4px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.catalog-sorting__link--tile {
+  background-image: url("../images/catalog/tile.svg");
+}
+
+.catalog-sorting__link--card {
+  background-image: url("../images/catalog/card.svg");
+}
+
+.catalog-sorting__link--list {
+  background-image: url("../images/catalog/list.svg");
 }
 
 .catalog-sorting__link--active {
@@ -1395,10 +1409,6 @@ body {
   border-color: #000000;
 }
 
-.catalog-sorting__icon {
-  fill: #000000;
-  margin: 0;
-}
 
 .catalog ul {
   list-style: none;
