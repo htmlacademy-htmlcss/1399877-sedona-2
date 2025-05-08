@@ -891,23 +891,23 @@ body {
   box-sizing: border-box;
 }
 
-.modal__guest-count .modal__button svg {
+.modal__guest-count-button .modmodal__guest-icon {
   fill: rgba(117, 97, 87, 0.3);
   transition: fill 0.2s ease, outline 0.2s ease;
 }
 
-.modal__guest-count .modal__button:hover svg {
+.modal__guest-count-button:hover .modmodal__guest-icon {
   fill: #000000;
   transition: fill 0.3s ease;
 }
 
-.modal__guest-count .modal__button:focus {
+.modal__guest-count-button:focus {
   outline: 3px solid #82b3d3;
   outline-offset: 2px;
   transition: outline 0.3s ease;
 }
 
-.modal__guest-count .modal__button:active svg {
+.modal__guest-count-button:active .modmodal__guest-icon {
   fill: rgba(117, 97, 87, 0.3);
   transition: fill 0.3s ease;
 }
