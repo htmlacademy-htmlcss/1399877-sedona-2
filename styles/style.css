@@ -277,11 +277,12 @@ body {
 
 .favorite-counter {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -1px;
+  left: -2px;
   transform: translate(50%, -50%);
   display: block;
-  padding: 4px;
+  padding: 5px;
+  padding-left: 4px;
   border-radius: 10px;
   background-color: #7db54f;
   font-size: 10px;
@@ -977,17 +978,8 @@ body {
   margin: 0;
 }
 
-.catalog-filters__title {
-  margin: 0;
-  margin-bottom: 8px;
-  font-size: 60px;
-  line-height: 78px;
-  font-weight: 700;
-  color: #ffffff;
-}
-
 .catalog-filters {
-  padding: 30px 70px 70px;
+  padding: 35px 70px 70px;
   margin-bottom: 50px;
   background-image: url("../images/filters.jpg");
   background-color: #103954;
@@ -999,6 +991,16 @@ body {
 .catalog-filters__header {
   width: 1060px;
   margin: 0 auto;
+}
+
+.catalog-filters__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 4px;
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .breadcrumbs {
@@ -1064,7 +1066,7 @@ body {
 
 .catalog-filters__group--columns {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 150px 150px;
   column-gap: 70px;
   max-width: 370px;
 }
@@ -1086,7 +1088,7 @@ body {
 }
 
 .catalog-filters__legend {
-  margin-bottom: 32px;
+  margin-bottom: 30px;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -1393,6 +1395,7 @@ body {
 .catalog-sorting__view-item:active {
   border-color: #000000;
   transition: border 0.3s ease;
+}
 
 .catalog-sorting__link {
   display: block;
@@ -1499,18 +1502,27 @@ body {
 }
 
 .catalog__stars {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0;
-  max-width: 140px;
+  min-height: 17px;
+  margin: 0;
+  background-image: url("../images/icons/star.svg");
+  background-repeat: space no-repeat;
+  background-position: center;
 }
 
-.catalog__star {
-  background-image: url("../images/icons/star.svg");
+.catalog__stars-1 {
   width: 18px;
-  height: 17px;
-  margin-right: 6px;
+}
+
+.catalog__stars-2 {
+  width: 42px;
+}
+
+.catalog__stars-3 {
+  width: 66px;
+}
+
+.catalog__stars-4 {
+  width: 88px;
 }
 
 .catalog__score {
